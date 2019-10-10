@@ -27,11 +27,11 @@ It will generate `test_sample.merged.final.test.xls` after optimal Quality-contr
 ```
 python  bin/InceptionV3/image_identify.py  example/test_sample.image_classify_input.xls  example/pic  bin/InceptionV3/  example/  test_sample
 ```
-Input file: `example/test_sample.image_classify_input.xls`  
-the images of CNV depth corresponding to input file: `example/pic`  
-the retrained the last layer of InceptionV3: `bin/InceptionV3/`  
-output directorty: `example/`  
-sample name: `test_sample`  
+* Input file: `example/test_sample.image_classify_input.xls`  
+* the images of CNV depth corresponding to input file: `example/pic`  
+* the retrained the last layer of InceptionV3: `bin/InceptionV3/`  
+* output directorty: `example/`  
+* sample name: `test_sample`  
 
 Then generate the output file `test_sample.image.fil.xls` under the `example` directory
   
@@ -44,12 +44,12 @@ python3 bin/InceptionV3/retrain.py --image_dir bin/InceptionV3/pic_training/ --b
 ```
 python bin/naive_bayes.py  example/bayes/CNV_input/  example/bayes/training_datasets/normal/  example/bayes/training_datasets/delete/  example/bayes/variants/  example/bayes/output.bayes.cnv.xls 50
 ```
-input files of CNVs: `example/bayes/CNV_input/`  
-the training datasets of normal regions: `example/bayes/training_datasets/normal/`  
-the training datasets of CNV regions: `example/bayes/training_datasets/delete/`  
-the SNP/InDel variants: `example/bayes/variants/`  
-output file: ` example/bayes/output.bayes.cnv.xls`  
-the shielding parameter: `50`
+* input files of CNVs: `example/bayes/CNV_input/`  
+* the training datasets of normal regions: `example/bayes/training_datasets/normal/`  
+* the training datasets of CNV regions: `example/bayes/training_datasets/delete/`  
+* the SNP/InDel variants: `example/bayes/variants/`  
+* output file: ` example/bayes/output.bayes.cnv.xls`  
+* the shielding parameter: `50`
 
 The output format of the Comprehensive framework as follows:
 ```
