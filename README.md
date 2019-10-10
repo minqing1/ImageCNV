@@ -1,6 +1,9 @@
 # Novel_CNV_Framework
 a novel framework integrated SNV-based recalibration probabilistic model and image classification architecture for CNVs discovery
 
+Because of the large volume of training datasets, click the following link to get the whole scripts and data.
+[Google Drive](https://drive.google.com/file/d/16-QvI2g-TIMFEPOf3VCjGRr3Hujl-Rcz/view?usp=sharing)
+
 ## Features
 * Integration of RD, PE+SR approaches, and optimize bin size of RD approach
 * Quality-control strategies
