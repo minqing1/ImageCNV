@@ -18,20 +18,20 @@ a novel framework integrated SNV-based recalibration probabilistic model and ima
 ## Processing flow
 ### 1. Run the Quality-control strategies for RD and PE+SR methods
 ```
-python bin/RD_PE_SR_optimal.py NA19625
+python bin/RD_PE_SR_optimal.py test_sample
 ```
-The input files included the output of CNVnators and LUMPY, `NA19625.cnv.xls` and `NA19625.sv.result.xls` under the directory of `example`.  
-It will generate `NA19625.merged.final.test.xls` after optimal Quality-control strategies.
+The input files included the output of CNVnators and LUMPY, `test_sample.cnv.xls` and `test_sample.sv.result.xls` under the directory of `example`.  
+It will generate `test_sample.merged.final.test.xls` after optimal Quality-control strategies.
  
 ### 2. Image Classification
 ```
-python  bin/InceptionV3/image_identify.py  example/NA19625.image_classify_input.xls  example/pic  bin/InceptionV3/  example/  NA19625
+python  bin/InceptionV3/image_identify.py  example/test_sample.image_classify_input.xls  example/pic  bin/InceptionV3/  example/  test_sample
 ```
-Input file: `example/NA19625.image_classify_input.xls`  
+Input file: `example/test_sample.image_classify_input.xls`  
 the images of CNV depth corresponding to input file: `example/pic`  
 the retrained the last layer of InceptionV3: `bin/InceptionV3/`  
 output directorty: `example/`  
-sample name: `NA19625`  
+sample name: `test_sample`  
 
 Then generate the output file `NA19625.image.fil.xls` under the `example` directory
   
