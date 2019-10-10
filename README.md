@@ -33,7 +33,7 @@ the retrained the last layer of InceptionV3: `bin/InceptionV3/`
 output directorty: `example/`  
 sample name: `test_sample`  
 
-Then generate the output file `NA19625.image.fil.xls` under the `example` directory
+Then generate the output file `test_sample.image.fil.xls` under the `example` directory
   
 You can retrain the last layer of InceptionV3 ownself using the code below:
 ```
