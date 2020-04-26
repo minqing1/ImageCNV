@@ -61,7 +61,7 @@ chr1    1285001     1287000    deletion        0       1
 chr1    17185001    17277000   duplication     0       0
 chr1    64839001    64852000   deletion        1       1
 ```
-The first four columns are the putative regions of CNVs calling by RD,PE+SR approaches. The fifth column is the predicition of Image Classification, and `0` represents NO and `1` YES. The last columns is the result of naive bayesian model. The candidate CNVs are marked `1` in the fifth column or the last column.
+The first four columns are the putative regions of CNVs calling by RD,PE+SR approaches. The fifth column is the predicition of Image Classification, and `0` represents FALSE and `1` TRUE. The last columns is the result of naive bayesian model. The candidate CNVs are marked `1` in the fifth column or the last column.
 
 
 ## Performace
