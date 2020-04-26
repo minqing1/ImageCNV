@@ -1,4 +1,4 @@
-# Novel_CNV_Framework
+# ImagCNV
 a novel framework integrated SNV-based recalibration probabilistic model and image classification architecture for CNVs discovery
 
 `Because of the large volume of training datasets, click the following link to get the whole scripts and data.`  
